@@ -14,7 +14,7 @@ contact.style.cssText = 'border: 1px solid black; text-align: center; font-size:
 
 body.appendChild(homeDiv);
 body.appendChild(matn);
-// home button
+
 home.style.cssText = 'color: white; border: 1px solid white; text-align: center; font-size: 35px;';
 body.style.cssText = 'background-size: 100%; background-image: url(http://images.summitmedia-digital.com/esquiremagph/images/2020/09/07/junk-food-aging.jpg); background-repeat: no-repeat';
 homeDiv.textContent = 'Home Page';
@@ -30,7 +30,6 @@ home.addEventListener('click', () => {
   matn.style.cssText = 'color: white; font-size: 20px ';
 });
 
-// menu button
 menu.style.cssText = 'color: white; border: 1px solid white; text-align: center; font-size: 35px;';
 
 menu.addEventListener('click', () => {
@@ -41,7 +40,6 @@ menu.addEventListener('click', () => {
   matn.style.cssText = 'border: 1px solid grey; border-radius: 15px; padding: 10px; color: white; font-size: 33px; width: 300px; opacity: 0.7; margin: 1px 0 0 30px;  box-shadow: 0 4px 8px 0 rgb(165, 164, 164), 0 6px 20px 0 rgb(165, 164, 164); ';
 });
 
-// contact button
 contact.style.cssText = 'color: white; border: 1px solid white; text-align: center; font-size: 35px;';
 
 contact.addEventListener('click', () => {
