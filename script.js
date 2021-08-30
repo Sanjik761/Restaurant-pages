@@ -3,6 +3,9 @@ const home = document.querySelector('.home');
 const menu = document.querySelector('.menu');
 const contact = document.querySelector('.contact');
 const body = document.querySelector('body');
+const homeDiv = document.createElement('h1');
+const matn = document.createElement('p');
+
 
 header.style.cssText = 'display: grid; grid-template-columns: 1fr 1fr 1fr;';
 home.style.cssText = 'border: 1px solid black; text-align: center; font-size: 35px;';
