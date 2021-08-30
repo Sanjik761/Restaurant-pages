@@ -41,3 +41,11 @@ menu.addEventListener('click', () => {
 // contact button
 contact.style.cssText = 'color: white; border: 1px solid white; text-align: center; font-size: 35px;';
 
+contact.addEventListener('click', () => {
+    body.style.cssText = 'background-size: 100%; background-image: url(https://www.isl.com.pk/wp-content/uploads/2020/10/header-img.png); background-repeat: no-repeat';
+    homeDiv.textContent = 'Contact Us';
+    homeDiv.style.cssText = 'color: white; text-align: center; font-family: sans-serif';
+    matn.textContent = 'If you want to contact us, please call the numbers below: +998907777777';
+    matn.style.cssText = 'color: white; font-size: 18px';
+});
+
