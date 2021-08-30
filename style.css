@@ -3,3 +3,7 @@
 .contact:hover {
     opacity: 0.4;
 }
+
+body {
+    transition: ease 0.8s;
+}
