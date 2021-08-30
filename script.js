@@ -25,4 +25,7 @@ home.addEventListener('click', () => {
     homeDiv.style.cssText = 'color: white; text-align: center; font-family: sans-serif';
     matn.textContent = "Welcome to Fast-Food Restaurant";
     matn.style.cssText = 'color: white; font-size: 20px ';
-  });
+});
+
+// menu button
+menu.style.cssText = 'color: white; border: 1px solid white; text-align: center; font-size: 35px;';
