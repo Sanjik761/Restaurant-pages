@@ -18,3 +18,11 @@ homeDiv.textContent = 'Home Page';
 homeDiv.style.cssText = 'color: white; text-align: center; font-family: sans-serif';
 matn.textContent = "Welcome to Fast-Food Restaurant";
 matn.style.cssText = 'color: white; font-size: 20px ';
+
+home.addEventListener('click', () => {
+    body.style.cssText = 'background-size: 100%; background-image: url(http://images.summitmedia-digital.com/esquiremagph/images/2020/09/07/junk-food-aging.jpg); background-repeat: no-repeat';
+    homeDiv.textContent = 'Home Page';
+    homeDiv.style.cssText = 'color: white; text-align: center; font-family: sans-serif';
+    matn.textContent = "Welcome to Fast-Food Restaurant";
+    matn.style.cssText = 'color: white; font-size: 20px ';
+  });
