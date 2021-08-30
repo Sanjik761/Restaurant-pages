@@ -1,0 +1,5 @@
+.home:hover,
+.menu:hover,
+.contact:hover {
+    opacity: 0.4;
+}
